@@ -1,0 +1,35 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "nim": 1741720063,
+      "nama": "Alan Rizky Wardana",
+      "alamat": "Malang",
+      "hp": "089679739430",
+      "angkatan": 2017,
+      "status": "aktif"
+    },
+    {
+      "id": 2,
+      "nim": 1741720067,
+      "nama": "Fawwaz Ramzy Darmawan",
+      "alamat": "Sidoarjo",
+      "hp": "082254148320",
+      "angkatan": 2017,
+      "status": "lulus"
+    },
+    {
+      "id": 1583302685464,
+      "nim": "1741720105",
+      "nama": "Yessy Nindi Pratiwi",
+      "alamat": "Gresik",
+      "hp": "088276318631",
+      "angkatan": "2017",
+      "status": "aktif"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
