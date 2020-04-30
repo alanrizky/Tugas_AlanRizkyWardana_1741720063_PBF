@@ -1,0 +1,25 @@
+[debug] [2020-04-30T13:19:59.995Z] ----------------------------------------------------------------------
+[debug] [2020-04-30T13:20:00.010Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\wigny\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2020-04-30T13:20:00.010Z] CLI Version:   8.2.0
+[debug] [2020-04-30T13:20:00.010Z] Platform:      win32
+[debug] [2020-04-30T13:20:00.010Z] Node Version:  v12.16.1
+[debug] [2020-04-30T13:20:00.010Z] Time:          Thu Apr 30 2020 20:20:00 GMT+0700 (Western Indonesia Time)
+[debug] [2020-04-30T13:20:00.010Z] ----------------------------------------------------------------------
+[debug] [2020-04-30T13:20:00.010Z] 
+[debug] [2020-04-30T13:20:00.056Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-30T13:20:00.056Z] > authorizing via signed-in user
+[debug] [2020-04-30T13:20:00.072Z] [iam] checking project fir-login-6bae3 for permissions ["firebase.projects.get"]
+[debug] [2020-04-30T13:20:00.072Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fir-login-6bae3:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-04-30T13:20:01.462Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 30 Apr 2020 13:20:01 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=1225","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-04-30T13:20:01.466Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fir-login-6bae3  
+ 
+[debug] [2020-04-30T13:20:01.794Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 30 Apr 2020 13:20:02 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Serving from 'E:\TUGAS\SEMESTER 6\Pemrograman Berbasis Framework\MINGGU 13\PROJECT\firebase-login'...
+[info] 
+[debug] [2020-04-30T13:20:01.807Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/fir-login-6bae3/webApps/-/config  
+ 
+[debug] [2020-04-30T13:20:02.707Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Thu, 30 Apr 2020 13:20:03 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-Q049=\":443\"; ma=2592000,h3-Q048=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
